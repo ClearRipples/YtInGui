@@ -85,11 +85,11 @@ module.exports = function(grunt) {
             zepto: {
                 src: [
                     'lib/zeptojs/zepto.js',
-                    'lib/zeptojs/event.js',
-                    'lib/zeptojs/touch.js', 
-                    'lib/zeptojs/ajax.js',
-                    'lib/zeptojs/ie.js',
-                    'lib/zeptojs/form.js'
+                    // 'lib/zeptojs/event.js',
+                    // 'lib/zeptojs/touch.js', 
+                    // 'lib/zeptojs/ajax.js',
+                    // 'lib/zeptojs/ie.js',
+                    // 'lib/zeptojs/form.js'
                 ],
                 dest: 'lib/zepto.min.js'
             },
