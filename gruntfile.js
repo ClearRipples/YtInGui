@@ -71,7 +71,7 @@ module.exports = function(grunt) {
             }
         },
         jshint: {
-            files: ['Gruntfile.js', 'js/**/*.js', '!js/YtInG.js'],
+            files: ['gruntfile.js', 'js/**/*.js', '!js/YtInG.js'],
             options: {
                 // 允许多行字符拼接, 在 *.tpl 中常用
                 "multistr": true,
@@ -85,11 +85,11 @@ module.exports = function(grunt) {
             zepto: {
                 src: [
                     'lib/zeptojs/zepto.js',
-                    // 'lib/zeptojs/event.js',
-                    // 'lib/zeptojs/touch.js', 
-                    // 'lib/zeptojs/ajax.js',
-                    // 'lib/zeptojs/ie.js',
-                    // 'lib/zeptojs/form.js'
+                    'lib/zeptojs/event.js',
+                    'lib/zeptojs/touch.js', 
+                    'lib/zeptojs/ajax.js',
+                    'lib/zeptojs/ie.js',
+                    'lib/zeptojs/form.js'
                 ],
                 dest: 'lib/zepto.min.js'
             },
@@ -168,6 +168,19 @@ module.exports = function(grunt) {
         'copy',
         'includereplace',
         'watch'
+    ]);
+
+    grunt.registerTask('deploy',[
+        'sass',
+        'autoprefixer',
+        'cssmin',
+        'imagemin',
+
+        'concat:zepto',
+        'concat:js',
+        'uglify',
+        'copy',
+        'includereplace',
     ]);
 
     // 根据 docs 的代码片段生成 demo 到 demo/*.html
