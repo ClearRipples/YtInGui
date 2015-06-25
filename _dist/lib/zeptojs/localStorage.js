@@ -1,0 +1,1 @@
+!function(a){a.fn.cache.getItem=function(a){var b=localStorage.getItem(a);if(!b)return void 0;try{b=JSON.parse(b)}catch(c){return void alert("JSON parse error")}return b},a.fn.cache.setItem=function(a,b){return localStorage.setItem(a,JSON.stringify(b)),getItem(a)},a.fn.cache.removeItem=function(a){localStorage.removeItem(a)}}(Zepto);
