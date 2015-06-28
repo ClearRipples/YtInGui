@@ -7,9 +7,9 @@
         <meta name="format-detection" content="telephone=no">
         <title>YtInGUI Demo</title>
         <link rel="stylesheet" href="../css/YtInG.css">
+        <link rel="stylesheet" href="demo.css">
         <link rel="stylesheet" href="../css/parallax.css">
         <link rel="stylesheet" href="../css/parallax-animation.css">
-        <link rel="stylesheet" href="demo.css">
         <script src="../lib/zepto.min.js"></script>
         <script src="../js/YtInG.js"></script>
         <script src="../js/effect/cover.js"></script>
@@ -73,7 +73,9 @@
 
 
         <script>
-        $('.pages').parallax();
+        $('.pages').parallax({
+            direction: 'horizontal'     // horizontal (水平翻页)
+        });
         
         $('.ui-list li').click(function(){
             if($(this).data('href')){

@@ -1,6 +1,8 @@
 
         <script>
-        $('.pages').parallax();
+        $('.pages').parallax({
+            direction: 'horizontal'     // horizontal (水平翻页)
+        });
         
         $('.ui-list li').click(function(){
             if($(this).data('href')){
