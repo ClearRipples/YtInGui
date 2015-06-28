@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAOA,cAAc;EACV,YAAY,EC4BQ,IAAI;ED3BxB,aAAa,EC2BO,IAAI;ED1BxB,UAAU,EAAE,UAAU;EACtB,yBAA0B;IAJ9B,cAAc;MAKN,YAAY,ECyBI,IAAI;MDxBpB,aAAa,ECwBG,IAAI;;ADpB5B,mBAAmB;EACf,YAAY,ECkBQ,IAAI;EDjBxB,UAAU,EAAE,UAAU;EACtB,yBAA0B;IAH9B,mBAAmB;MAIX,YAAY,ECgBI,IAAI;;ADb5B,oBAAoB;EAChB,aAAa,ECWO,IAAI;EDVxB,UAAU,EAAE,UAAU;EACtB,yBAA0B;IAH9B,oBAAoB;MAIZ,aAAa,ECSG,IAAI",
-"sources": ["../sass/util/whitespace.scss","../sass/base/variable.scss"],
-"names": [],
-"file": "whitespace.css"
-}
