@@ -20,10 +20,6 @@ search content
 ratchet push.js 这样的页面切换效果功能
 http://www.sitepoint.com/ratchets-push-js-prototyping-mobile-apps-multiple-screens/
 
-外部用户会用到 我们不会用到的组件
-
-http://mqq.oa.com/custom.html
-
 
 	basic:
 	包含以下组件: 
@@ -56,18 +52,9 @@ http://mqq.oa.com/custom.html
 	    "component/newstips",
 	    "component/dialog",
 	    "component/searchbar";
-	    
-    vip: 包含以下组件: 
+	   
     
-        "vip/ui-icon-qq",
-	    "vip/ui-icon-qqlevel",
-	    "vip/ui-icon-viplevel",
-	    "vip/ui-btn-vip",
-	    "vip/ui-tooltips-vip";
-	    
-    global: 包含basic和vip
-    
-    frozen:
+    YtInG:
     
 	//  基础样式    
 	    "base/reset",
@@ -114,5 +101,3 @@ http://mqq.oa.com/custom.html
 	    "component/dialog",
 	    "component/selector",
 	    "component/actionsheet"; 
-	
-	full:  包含frozen和vip
